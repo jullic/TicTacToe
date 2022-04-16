@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Крестики-Нолики</h1>
+
+        <!-- <div class="choise">
+            <button class="choise__btn active"><span></span><span></span></button>
+            <button class="choise__btn"><div class="circle"></div></button>
+        </div> -->
+        
+        <div class="complexity">
+            <button class="easy complexity__item active" id="easy">Легко</button>
+            <button class="medium complexity__item" id="medium">Средне</button>
+            <button class="hard complexity__item" id="hard">Сложно</button>
+            <button class="human complexity__item" id="human">С человеком</button>
+        </div>
+        <div class="tic-tac">
+            <div class="tic-tac__place">
+            </div>
+            <div class="tic-tac__place">
+    
+            </div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+            <div class="tic-tac__place"></div>
+        </div>
+    
+        <button class="restart">Заново</button>
+        <div class="modal">
+            <h2 class="modal__text">Победили_крестики!</h2>
+            <button class="modal__btn">Рестарт</button>
+        </div>
+    </div>
+    <script src="js/bundle.js"></script>
+</body>
+</html>
